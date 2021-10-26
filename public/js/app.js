@@ -26663,7 +26663,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       /* TEXT */
       )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Team Name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
         "for": "name",
-        value: "Team Name"
+        value: "Nome do Baba"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
         id: "name",
         type: "text",
@@ -26680,60 +26680,60 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "class": "mt-2"
       }, null, 8
       /* PROPS */
-      , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Team Name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
-        "for": "name",
-        value: "Team Name"
+      , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" local Name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
+        "for": "locale",
+        value: "Local"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
-        id: "name",
+        id: "locale",
         type: "text",
         "class": "mt-1 block w-full",
-        modelValue: _ctx.form.name,
+        modelValue: _ctx.form.locale,
         "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
-          return _ctx.form.name = $event;
+          return _ctx.form.locale = $event;
         }),
         disabled: !_ctx.permissions.canUpdateTeam
       }, null, 8
       /* PROPS */
       , ["modelValue", "disabled"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
-        message: _ctx.form.errors.name,
+        message: _ctx.form.errors.locale,
         "class": "mt-2"
       }, null, 8
       /* PROPS */
-      , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Team Name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
-        "for": "name",
-        value: "Team Name"
+      , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" data "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
+        "for": "date_b",
+        value: "Data"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
-        id: "name",
-        type: "text",
+        id: "date_b",
+        type: "date",
         "class": "mt-1 block w-full",
-        modelValue: _ctx.form.name,
+        modelValue: _ctx.form.date_b,
         "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
-          return _ctx.form.name = $event;
+          return _ctx.form.date_b = $event;
         }),
         disabled: !_ctx.permissions.canUpdateTeam
       }, null, 8
       /* PROPS */
       , ["modelValue", "disabled"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
-        message: _ctx.form.errors.name,
+        message: _ctx.form.errors.date_b,
         "class": "mt-2"
       }, null, 8
       /* PROPS */
-      , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Team Name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
-        "for": "name",
-        value: "Team Name"
+      , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" houras "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
+        "for": "hour_b",
+        value: "Horario"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
-        id: "name",
-        type: "text",
+        id: "hour_b",
+        type: "time",
         "class": "mt-1 block w-full",
-        modelValue: _ctx.form.name,
+        modelValue: _ctx.form.hour_b,
         "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
-          return _ctx.form.name = $event;
+          return _ctx.form.hour_b = $event;
         }),
         disabled: !_ctx.permissions.canUpdateTeam
       }, null, 8
       /* PROPS */
       , ["modelValue", "disabled"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
-        message: _ctx.form.errors.name,
+        message: _ctx.form.errors.hour_b,
         "class": "mt-2"
       }, null, 8
       /* PROPS */

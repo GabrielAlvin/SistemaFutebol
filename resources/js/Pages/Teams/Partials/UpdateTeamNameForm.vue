@@ -25,7 +25,7 @@
 
             <!-- Team Name -->
             <div class="col-span-6 sm:col-span-4">
-                <jet-label for="name" value="Team Name" />
+                <jet-label for="name" value="Nome do Baba" />
 
                 <jet-input id="name"
                             type="text"
@@ -36,44 +36,44 @@
                 <jet-input-error :message="form.errors.name" class="mt-2" />
             </div>
 
-            <!-- Team Name -->
+            <!-- local Name -->
             <div class="col-span-6 sm:col-span-4">
-                <jet-label for="name" value="Team Name" />
+                <jet-label for="locale" value="Local" />
 
-                <jet-input id="name"
+                <jet-input id="locale"
                             type="text"
                             class="mt-1 block w-full"
-                            v-model="form.name"
+                            v-model="form.locale"
                             :disabled="! permissions.canUpdateTeam" />
 
-                <jet-input-error :message="form.errors.name" class="mt-2" />
+                <jet-input-error :message="form.errors.locale" class="mt-2" />
             </div>
 
 
-            <!-- Team Name -->
+            <!-- data -->
             <div class="col-span-6 sm:col-span-4">
-                <jet-label for="name" value="Team Name" />
+                <jet-label for="date_b" value="Data" />
 
-                <jet-input id="name"
-                            type="text"
+                <jet-input id="date_b"
+                            type="date"
                             class="mt-1 block w-full"
-                            v-model="form.name"
+                            v-model="form.date_b"
                             :disabled="! permissions.canUpdateTeam" />
 
-                <jet-input-error :message="form.errors.name" class="mt-2" />
+                <jet-input-error :message="form.errors.date_b" class="mt-2" />
             </div>
 
-            <!-- Team Name -->
+            <!-- houras -->
             <div class="col-span-6 sm:col-span-4">
-                <jet-label for="name" value="Team Name" />
+                <jet-label for="hour_b" value="Horario" />
 
-                <jet-input id="name"
-                            type="text"
+                <jet-input id="hour_b"
+                            type="time"
                             class="mt-1 block w-full"
-                            v-model="form.name"
+                            v-model="form.hour_b"
                             :disabled="! permissions.canUpdateTeam" />
 
-                <jet-input-error :message="form.errors.name" class="mt-2" />
+                <jet-input-error :message="form.errors.hour_b" class="mt-2" />
             </div>
         </template>
 

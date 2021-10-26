@@ -24,7 +24,7 @@ class UpdateTeamName implements UpdatesTeamNames
             'name' => ['required', 'string', 'max:255'],
             'date_b' => ['required', 'date'],
             'locale' => ['required', 'string','min:2', 'max:255'],
-            'hour_b' => ['required', 'time'],
+            'hour_b' => ['required', 'date_format:H:i'],
         ])->validateWithBag('updateTeamName');
 
         $team->forceFill([
