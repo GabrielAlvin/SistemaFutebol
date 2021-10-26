@@ -24,26 +24,26 @@
 
             <div class="col-span-6 sm:col-span-4">
                 <jet-label for="name" value="Baba" />
-                <jet-input id="name" type="text" class="block w-full mt-1" v-model="form.name" autofocus />
+                <jet-input id="name" type="text" class="block w-full mt-1" v-model="form.name" autofocus required/>
                 <jet-input-error :message="form.errors.name" class="mt-2" />
             </div>
 
             <div class="col-span-6 sm:col-span-4">
                 <jet-label for="local" value="Local" />
-                <jet-input id="local" type="text" class="block w-full mt-1" v-model="form.locale" />
+                <jet-input id="local" type="text" class="block w-full mt-1" v-model="form.locale" required/>
                 <jet-input-error :message="form.errors.locale" class="mt-2" />
             </div>
 
             <div class="col-span-6 sm:col-span-4">
                 <jet-label for="data_b" value="Data" />
-                <jet-input id="data_b" type="date" class="block w-full mt-1" v-model="form.date_b" />
+                <jet-input id="data_b" type="date" class="block w-full mt-1" v-model="form.date_b" required/>
                 <jet-input-error :message="form.errors.date_b" class="mt-2" />
             </div>
 
             <div class="col-span-6 sm:col-span-4">
-                <jet-label for="hour" value="Horario" />
-                <jet-input id="hour" type="time" class="block w-full mt-1" v-model="form.hour"/>
-                <jet-input-error :message="form.errors.hour" class="mt-2" />
+                <jet-label for="hour_b" value="Horario" />
+                <jet-input id="hour_b" type="time" class="block w-full mt-1" v-model="form.hour_b" required/>
+                <jet-input-error :message="form.errors.hour_b" class="mt-2" />
             </div>
         </template>
 
@@ -78,7 +78,7 @@
                     name: '',
                     locale: '',
                     date_b: '',
-                    hour: '',
+                    hour_b: '',
                 })
             }
         },

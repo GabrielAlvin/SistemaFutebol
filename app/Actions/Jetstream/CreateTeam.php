@@ -8,6 +8,7 @@ use Laravel\Jetstream\Contracts\CreatesTeams;
 use Laravel\Jetstream\Events\AddingTeam;
 use Laravel\Jetstream\Jetstream;
 
+
 class CreateTeam implements CreatesTeams
 {
     /**
@@ -23,9 +24,9 @@ class CreateTeam implements CreatesTeams
 
         Validator::make($input, [
             'name' => ['required', 'string', 'min:2','max:255'],
-            'date_b' => ['date'],
-            'locale' => ['string','min:2', 'max:255'],
-            'hour_b' => ['time'],
+            'date_b' => ['required','date'],
+            'locale' => ['required', 'string','min:2', 'max:255'],
+            'hour_b' => ['required', 'date_format:H:i'],
         ])->validateWithBag('createTeam');
 
         AddingTeam::dispatch($user);

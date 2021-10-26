@@ -21142,7 +21142,7 @@ __webpack_require__.r(__webpack_exports__);
         name: '',
         locale: '',
         date_b: '',
-        hour: ''
+        hour_b: ''
       })
     };
   },
@@ -25815,7 +25815,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.form.name = $event;
         }),
-        autofocus: ""
+        autofocus: "",
+        required: ""
       }, null, 8
       /* PROPS */
       , ["modelValue"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
@@ -25833,7 +25834,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         modelValue: _ctx.form.locale,
         "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
           return _ctx.form.locale = $event;
-        })
+        }),
+        required: ""
       }, null, 8
       /* PROPS */
       , ["modelValue"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
@@ -25851,7 +25853,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         modelValue: _ctx.form.date_b,
         "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
           return _ctx.form.date_b = $event;
-        })
+        }),
+        required: ""
       }, null, 8
       /* PROPS */
       , ["modelValue"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
@@ -25860,20 +25863,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, null, 8
       /* PROPS */
       , ["message"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
-        "for": "hour",
+        "for": "hour_b",
         value: "Horario"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
-        id: "hour",
+        id: "hour_b",
         type: "time",
         "class": "block w-full mt-1",
-        modelValue: _ctx.form.hour,
+        modelValue: _ctx.form.hour_b,
         "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
-          return _ctx.form.hour = $event;
-        })
+          return _ctx.form.hour_b = $event;
+        }),
+        required: ""
       }, null, 8
       /* PROPS */
       , ["modelValue"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input_error, {
-        message: _ctx.form.errors.hour,
+        message: _ctx.form.errors.hour_b,
         "class": "mt-2"
       }, null, 8
       /* PROPS */
