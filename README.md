@@ -14,7 +14,9 @@ O projeto se resume â um sistema de cadastro de partidas de futebol, para promo
 
 ## Instruções para questão do email
 
+![image](https://user-images.githubusercontent.com/55728703/138889483-88170f3b-b858-4d2d-93cf-ceb6d63788d2.png)
 
+Eu utilizei o mailtrap para envio de email para convite pro baba o pass a passo para usar ele é simples, basta clickar na engrenagem de configurações da inbox e solicitar a integração com o laravel.
 
 
 
